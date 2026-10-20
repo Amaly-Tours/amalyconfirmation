@@ -90,6 +90,9 @@ body.lang-en .switcher{justify-content:flex-start}
 .plain li:last-child{margin-bottom:0}
 .plain li::before{content:"";position:absolute;width:6px;height:6px;border-radius:50%;background:var(--amber);inset-inline-start:2px;top:10px}
 
+.card p{margin:0;font-size:13.5px}
+.card p + p{margin-top:10px}
+
 .note{text-align:center;margin:26px 0 0;padding:20px;background:linear-gradient(135deg,#fff0cc,#fcdcb2);font-size:14px}
 .divider{height:1px;background:var(--line);margin:30px 0}
 footer{text-align:center;padding-top:20px}
@@ -152,6 +155,7 @@ footer p{margin:3px 0 0;color:var(--muted);font-size:11px}
     <div class="card">
       <div class="card-header"><div class="card-icon">🏕️</div><div><h3>مواعيد اليوم</h3><p>من الوصول وحتى المغادرة</p></div></div>
       <ul class="schedule">
+        <li><span>فتح أبواب المخيم</span><span class="time">4:00 PM</span></li>
         <li><span>بداية البرنامج</span><span class="time">4:30 PM</span></li>
         <li><span>نهاية البرنامج</span><span class="time">9:30 PM</span></li>
         <li><span>انطلاق باص العودة</span><span class="time">10:00 PM</span></li>
@@ -176,12 +180,20 @@ footer p{margin:3px 0 0;color:var(--muted);font-size:11px}
   <section>
     <div class="section-title"><h2>معلومات مهمة</h2><p>قبل وصولكم، نحتاج منكم معرفة التالي</p></div>
     <div class="card"><ul class="plain">
+      <li>للقادمين بسياراتهم الشخصية: تُفتح أبواب المخيم الساعة 4:00 عصرًا.</li>
+      <li>🚙 جولة السفاري: يحق لكل عميل الاستمتاع بجولة سفاري واحدة فقط، مع اختيار تجربة الرانجلر أو البقي، بحسب المركبات المتاحة. وتتوقف جولات التطعيس عند غروب الشمس.</li>
       <li>العمر المسموح للدخول 6 سنوات فما فوق، ويلزم مرافقة أحد ذويهم لمن هم دون 18 سنة.</li>
       <li>عند الوصول سيكون الدخول باسم صاحب الحجز.</li>
       <li>يتوفر في الموقع مزودو خدمات برسوم إضافية.</li>
       <li>التدخين مسموح في الجلسات الخارجية فقط.</li>
-      <li>جولة تطعيس واحدة لكل مشترك، ويتم اختيار بقي أو جيب رانجلر.</li>
     </ul></div>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>📵 الخصوصية والتصوير</h2></div>
+    <div class="card">
+      <p>يُمنع منعًا باتًا تصوير زوار المخيم أو التقاط صور لهم دون إذنهم، احترامًا لخصوصيتهم. وفي حال مخالفة هذه التعليمات، تحتفظ شركة أمالي بحق استبعاد الزائر المخالف من المخيم مباشرةً، دون إنذار مسبق.</p>
+    </div>
   </section>
 
   <section>
@@ -192,7 +204,7 @@ footer p{margin:3px 0 0;color:var(--muted);font-size:11px}
     </ul></div>
   </section>
 
-  <p class="note">💛 عندكم سؤال؟ لا تترددوا في التواصل معنا في أي وقت.</p>
+  <p class="note">💛 في أمالي، راحتكم وخصوصيتكم جزء أساسي من تجربتنا. نرجو من الجميع الالتزام بالتعليمات، ونتمنى لكم أوقاتًا مليئة بالمتعة والمغامرة.<br>عندكم سؤال؟ لا تترددوا في التواصل معنا في أي وقت.</p>
 </div>
 
 
@@ -230,6 +242,7 @@ footer p{margin:3px 0 0;color:var(--muted);font-size:11px}
     <div class="card">
       <div class="card-header"><div class="card-icon">🏕️</div><div><h3>Day Schedule</h3><p>From arrival to departure</p></div></div>
       <ul class="schedule">
+        <li><span>Camp gates open</span><span class="time">4:00 PM</span></li>
         <li><span>Program starts</span><span class="time">4:30 PM</span></li>
         <li><span>Program ends</span><span class="time">9:30 PM</span></li>
         <li><span>Return bus departure</span><span class="time">10:00 PM</span></li>
@@ -254,23 +267,31 @@ footer p{margin:3px 0 0;color:var(--muted);font-size:11px}
   <section>
     <div class="section-title"><h2>Important Information</h2><p>A few things to know before you arrive</p></div>
     <div class="card"><ul class="plain">
+      <li>For guests arriving in private cars: the camp gates open at 4:00 PM.</li>
+      <li>🚙 Safari ride: each guest is entitled to one safari ride only, with a choice of the Wrangler or the buggy experience, subject to vehicle availability. Dune bashing rides stop at sunset.</li>
       <li>Entry is allowed for guests aged 6 and above. Guests under 18 must be accompanied by a parent or guardian.</li>
       <li>Entry will be under the name of the booking holder.</li>
       <li>Additional services are available on site from service providers at extra cost.</li>
       <li>Smoking is allowed in outdoor seating areas only.</li>
-      <li>One dune bashing ride per guest, with a choice of a buggy or a Jeep Wrangler.</li>
     </ul></div>
   </section>
 
   <section>
-    <div class="section-title"><h2>Terms & Conditions</h2></div>
+    <div class="section-title"><h2>📵 Privacy &amp; Photography</h2></div>
+    <div class="card">
+      <p>Photographing or filming camp guests without their permission is strictly prohibited, out of respect for their privacy. In case of violation, Amaly reserves the right to remove the violating guest from the camp immediately, without prior warning.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>Terms &amp; Conditions</h2></div>
     <div class="card"><ul class="plain">
       <li>Management reserves the right to remove anyone who violates the rules.</li>
       <li>Entry to the event means acceptance of all terms and conditions.</li>
     </ul></div>
   </section>
 
-  <p class="note">💛 Have a question? Don't hesitate to reach out to us anytime.</p>
+  <p class="note">💛 At Amaly, your comfort and privacy are a core part of our experience. We kindly ask everyone to follow the rules, and we wish you a time full of fun and adventure.<br>Have a question? Don't hesitate to reach out to us anytime.</p>
 </div>
 
 
